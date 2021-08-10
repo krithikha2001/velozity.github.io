@@ -1,0 +1,66 @@
+.container {
+  background-color: black;
+  color: white;
+}
+img:hover {
+  opacity: 0.5;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.talk {
+  background-color: #f4f73e;
+  font-size: 18px;
+  color: blue;
+  padding: 10px 20px;
+  border-radius: 18px;
+  border: 4px solid #16026d; /* Green */
+}
+
+.lnr {
+  display: inline-block;
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.05em;
+  stroke-width: 1;
+}
+
+.services-icon {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+bgc2,
+.vLine,
+.hLine {
+  background-color: #0f52ba;
+}
+
+.quote-icon {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.services-icon {
+  font-size: 60px;
+  margin-left: 2rem;
+}
+body::-webkit-scrollbar {
+  width: 1em;
+}
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #666;
+  outline: 1px solid #eee;
+}
